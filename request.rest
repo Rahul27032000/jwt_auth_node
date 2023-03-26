@@ -1,0 +1,39 @@
+GET  http://localhost:3000
+
+
+###
+
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username":"newuser",
+    "email":"email@company.io",
+    "password":"newpass"
+}
+
+
+###
+
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"newuser",
+    "email":"email@company.io",
+    "password":"newpass"
+}
+
+
+
+###
+
+
+POST http://localhost:3000/token
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDFlZTA3NGQzZjNkMThmOWZiZDdlMmEiLCJ1c2VybmFtZSI6Im5ld3VzZXIiLCJlbWFpbCI6ImVtYWlsQGNvbXBhbnkuaW8iLCJwYXNzd29yZCI6IiQyYiQxMCR3RFJabnFqaFJqeFJqR2guM1I1QzAuOW1WSXZFT3dxOTAvbTdiMWZHZzlhMlUuaDQweVFKSyIsIl9fdiI6MCwiaWF0IjoxNjc5NzU3OTUwfQ.RgBlDJh1Kiv_muMXjfIcOKyzEiOZa5Gy3jkDhBZ6XZU"
+}
