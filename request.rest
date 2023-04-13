@@ -7,12 +7,12 @@ GET  http://localhost:3000
 POST http://localhost:3000/register
 Content-Type: application/json
 
+
 {
-    "username":"newuser",
-    "email":"email@company.io",
+    "userName":"newuser1",
+    "email":"mymail@company.io",
     "password":"newpass"
 }
-
 
 ###
 
