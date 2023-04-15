@@ -9,7 +9,7 @@ Content-Type: application/json
 
 
 {
-    "userName":"newuser1",
+    "username":"newuser1",
     "email":"mymail@company.io",
     "password":"newpass"
 }
@@ -37,3 +37,18 @@ Content-Type: application/json
 {
     "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDFlZTA3NGQzZjNkMThmOWZiZDdlMmEiLCJ1c2VybmFtZSI6Im5ld3VzZXIiLCJlbWFpbCI6ImVtYWlsQGNvbXBhbnkuaW8iLCJwYXNzd29yZCI6IiQyYiQxMCR3RFJabnFqaFJqeFJqR2guM1I1QzAuOW1WSXZFT3dxOTAvbTdiMWZHZzlhMlUuaDQweVFKSyIsIl9fdiI6MCwiaWF0IjoxNjc5NzU3OTUwfQ.RgBlDJh1Kiv_muMXjfIcOKyzEiOZa5Gy3jkDhBZ6XZU"
 }
+
+
+
+###
+
+
+GET  http://localhost:3000/post
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODE0MTg5MjAsImV4cCI6MTY4MTQxOTgyMH0.k2nGkGkkf2iCUI0tjw1mcQos18acSzpqjp9_FCw603s
+
+
+
+
+
+
