@@ -21,3 +21,8 @@ const GetPostById = async (req, res, next) => {
   }
   next();
 };
+
+module.exports = {
+  GetPostById,
+  GetPosts,
+};
